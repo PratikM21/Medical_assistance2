@@ -144,6 +144,7 @@ def recommend_doctor(symptom):
         "insomnia": "Psychiatrist",
         "hallucination": "Psychiatrist",
         "trauma": "Psychiatrist",
+        "therapy": "Psychiatrist",
         "panic": "Psychiatrist",
         "children": "Pediatrician",
         "fever": "General Physician",
