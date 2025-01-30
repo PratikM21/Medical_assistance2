@@ -79,15 +79,10 @@ font-family: Arial, sans-serif;G
 """, unsafe_allow_html=True)
 
 # Display Title with Logo
-st.markdown(
-    """
-    <div class="title-container">
-        <img src="DIU logo.jpg">
-        <h1>DIU Medical Assistance</h1>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+st.title("🩺 DIU MedicalHub Assistant")
+#a short title
+#st.write("        Simplifying medical assistance for DIU students and staff")
+
 
 # Sidebar: Emergency Contact & Available Doctors
 
@@ -186,9 +181,9 @@ def send_email(to_email, doctor_name, doctor_email, doctor_phone, shift_time):
     except Exception as e:
         print("Error:", e)
 
-st.title("AI Medical Hub")
+#st.title("🩺 DIU MedicalHub Assistant")
 
-symptom = st.text_input("Describe your symptoms:")
+symptom = st.text_input("Type in your symptoms and let your AI assistant take care of the rest:")
 
 if symptom:
     advice = get_medical_advice(symptom)
