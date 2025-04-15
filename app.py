@@ -163,7 +163,7 @@ def recommend_doctor(symptom):
 
 def send_email(to_email, doctor_name, doctor_email, doctor_phone, shift_time):
     sender_email = "rahman35-902@diu.edu.bd"
-    app_password = "mijf occv voij pvfo"  # Use the generated App Password
+    app_password = "wmqy kpqu hlnu irjl"  # Use the generated App Password
 
     subject = "Appointment Confirmation"
     body = f"Your appointment with Dr. {doctor_name} is confirmed for {shift_time}.\n\n" \
